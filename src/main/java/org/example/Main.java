@@ -13,7 +13,10 @@ public class Main {
 
 
 
-        Boss boss = new Boss(470,250,"Medical");
+        Boss boss = new Boss();
+        boss.setBossHealth(500);
+        boss.setBossDamage(150);
+        boss.setBossDefence("Critical");
         System.out.println("BossHealth : " + boss.getBossHealth()+" " + "BossDamage : "
                 + boss.getBossDamage()+ " " + "BossDefence : " + boss.getBossDefence() );
 

@@ -5,13 +5,6 @@ public class Boss {
     private int bossDamage;
     private String bossDefence;
 
-    public Boss(int bossHealth, int bossDamage, String bossDefence) {
-        this.bossHealth = bossHealth;
-        this.bossDamage = bossDamage;
-        this.bossDefence = bossDefence;
-    }
-
-
     public int getBossHealth() {
         return bossHealth;
     }
